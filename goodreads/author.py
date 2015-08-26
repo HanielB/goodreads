@@ -20,6 +20,11 @@ class GoodreadsAuthor:
         return self._author_dict['name']
 
     @property
+    def role(self):
+        """Author role"""
+        return self._author_dict['role']
+
+    @property
     def about(self):
         """About the author"""
         return self._author_dict['about']
